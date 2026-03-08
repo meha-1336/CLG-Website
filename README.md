@@ -26,7 +26,9 @@ College_Application_Form/
 🎨 Clean and simple user interface
 
 👩‍💻 Author
+
 Mehanethra 
 
 📄 License
+
 This project is created for educational purposes only.
