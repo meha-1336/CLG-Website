@@ -1,0 +1,117 @@
+* {
+    margin: 10;
+    padding: 20;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:skyblue;
+    padding: 60px ;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between; 
+    margin: 30px ;
+    flex-wrap: wrap; 
+}
+
+.image-gallery img {
+    width: 30%;      
+    height: auto;   
+    border-radius: 10px;  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+}
+
+.navbar {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    color: rgb(227, 234, 20);
+    border-radius: 150px;
+    background-color: rgb(134, 25, 144);
+
+}
+
+.navbar a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(249, 224, 36);
+    font-weight: bold;
+    height: 20px;
+
+}
+
+.navbar a:hover {
+    color: white;
+   
+   
+}
+
+
+.form-containers {
+    width: 100vw;           /* full viewport width */
+    max-width: 100%;        /* prevent overflow */
+    margin: 0;              /* remove auto margin */
+    padding: 40px 20px;     /* keep some side padding */
+    border-radius: 0;       /* optional: remove rounded corners for full width */
+    box-shadow: none;       /* optional: remove shadow if you want clean edges */
+}
+
+
+
+.form-containers h2 {
+    margin: 20px 0 15px;
+    color: rgb(220, 15, 15);
+    
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+input, select, textarea {
+    width: 70vw;            /* 50% of the viewport width */
+    max-width: 500px;       /* optional max width limit */
+    min-width: 450px;       /* optional min width to keep it usable */
+    padding: 10px;
+    box-sizing: border-box; /* include padding in width */
+    border-radius: 5px;
+    border: 1px solid #ecd229;
+    font-size: 16px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn {
+    background: #1e3a8a;
+    color: white;
+    width: 70px;
+}
+
+.cancel-btn {
+    background: rgb(120, 176, 202);
+     width: 70px;
+}
+
+.submit-btn:hover {
+    background: #e2d153;
+}
