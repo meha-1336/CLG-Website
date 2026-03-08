@@ -7,13 +7,16 @@ It collects important information like student name, email, phone number, course
 The form is designed to be user-friendly, responsive, and easy to use on all devices such as mobile, tablet, and desktop.
 
 📂 Project Structure
+
 College_Application_Form/
+
  └── index.html
+ 
 🛠️ Technologies Used
 
-🌐 HTML5 – To create the form structure
+ 🌐 HTML5 – To create the form structure
 
-🎨 CSS3 – For styling and responsive layout
+ 🎨 CSS3 – For styling and responsive layout
 
 
 
